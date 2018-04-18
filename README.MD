@@ -9,10 +9,12 @@ For general info, see the [project's wiki page](http://www.compgenomics2018.bios
 The repository is organized as follows:
 
     .
-    ├── strain.sh       		# Strain determination script
-    ├── whole_genome            # Whole genome realated scripts
-    │   ├── clustering          # Clustering based on whole genome similiraity
-    ├── phylogeny               # Phylogeny realted scripts
+    ├── strain.sh               # Strain determination script
+    ├── whole_genome            # Whole genome related scripts
+    │   ├── clustering          # Clustering based on whole genome similarity
+    │   ├── ksnp                # KSNP scripts and results
+    │   ├── gwas                # Bacterial GWAS scripts and results
+    ├── phylogeny               # Phylogeny related scripts
     └
 
 To determine strain of an assembled genome, run
