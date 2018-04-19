@@ -1,4 +1,4 @@
-#Genome Assembly
+#Comparative Genomics
 
 
 This repository contains a set of comparative genomics scripts for Team II's comparative genomics group.
@@ -13,7 +13,7 @@ The repository is organized as follows:
     ├── strain.sh               # Strain determination script
     ├── whole_genome            # Whole genome related scripts
     │   ├── clustering          # Clustering based on whole genome similarity
-    │   ├── ksnp                # KSNP scripts and results
+    │   ├── ksnp                # kSNP scripts and results
     │   ├── gwas                # Bacterial GWAS scripts and results
     ├── phylogeny               # Phylogeny related scripts
     └
