@@ -1,4 +1,4 @@
-# Genome Assembly
+#Genome Assembly
 
 This repository contains a set of comparative genomics scripts for Team II's comparative genomics group.
 
