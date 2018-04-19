@@ -23,3 +23,9 @@ To determine strain of an assembled genome, run
     ./strain.sh assembly.fasta
 
 Some of the scripts **might only work on** `biogenome2018b.biology.gatech.edu` server since they rely on specific files present on this server.
+
+## Dependencies
+
+All the necessary dependencies for strain.sh are present in the *Phylogeny* direcotry.
+./strain.sh should be run in *strain_detect* sub-directory
+
