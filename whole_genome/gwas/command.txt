@@ -1,0 +1,5 @@
+#Step1 : Make pangenome
+Rscript /projects/data/comparativeGenomics/GWAS/bacterialGWAS/pangenomeGWAS/make_pangenome.R -contigFile /projects/data/comparativeGenomics/GWAS/bacterialGWAS/hr_v_nonhr/contigs2.txt -prodigal yes -similarity 0.7 -coverage 0.7 -prefix hrVnonhr -externalSoftwarePaths /projects/data/comparativeGenomics/GWAS/bacterialGWAS/hr_v_nonhr/ext_software.txt
+
+#Step2 : PAN_GWAS.R
+Rscript /projects/data/comparativeGenomics/GWAS/bacterialGWAS/pangenomeGWAS/PAN_GWAS.R -pangenome /projects/data/comparativeGenomics/GWAS/bacterialGWAS/hr_v_nonhr/hrVnonhr.pangenome.varGenes -phenotype /projects/data/comparativeGenomics/GWAS/bacterialGWAS/hr_v_nonhr/phenotype.txt -gemma no -externalSoftwarePaths /projects/data/comparativeGenomics/GWAS/bacterialGWAS/hr_v_nonhr/ext_software.txt
