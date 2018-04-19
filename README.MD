@@ -28,3 +28,12 @@ Some of the scripts **might only work on** `biogenome2018b.biology.gatech.edu` s
 ## Dependencies
 
 * All the necessary dependencies for `strain.sh` are present in the `phylogeny/strain_detect` directory.
+* Database required for strain detection can be downloaded from:
+    * [pre-built Database (*18GB*)](http://bioinfo.ut.ee/strainseeker/executables/ss_db_w32_4324.tar.gz)
+    * [pre-built Database  (*4GB*)](http://bioinfo.ut.ee/strainseeker/downloads/ss_db_w16.tar.gz)
+
+    *OR*
+
+    * A ***Klebsiella*-specific** (*2.5GB*) Database can be accessed on the `biogenome2018b.biology.gatech.edu` server at
+        `/projects/data/important_data/reference_DB/seeker_genomes/kleb_DB`
+* The database need to be put in the `phylogeny/strain_detect/database` directory
